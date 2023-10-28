@@ -1,0 +1,38 @@
+/* Apply styles to the top-level container */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+/* Style the login container */
+.rectangle {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Style the buttons */
+.idpass {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #0074cc; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.idpass:hover {
+    background-color: #005baa; /* Change background color on hover */
+}
